@@ -11,7 +11,7 @@ const Navbar = () => {
       <section className=" max-w-5xl mx-auto">
         <div className="relative flex items-center justify-between px-3 py-4">
           <div className="flex items-center gap-12">
-            <Link to={'/'}>
+            <Link to={'/'} onClick={() => setMobileNavigation(false)}>
               <img src={savantLogo} alt="SMS Savant Logo" className="w-40 cursor-pointer" />
             </Link>
             <ul className="hidden md:flex items-center gap-8 font-semibold text-sm">
@@ -44,7 +44,7 @@ const Navbar = () => {
 
           {
             mobileNavigation && (
-              <ul className="absolute z-10 top-16 left-0 w-full bg-slate-100 px-3 py-4 font-semibold text-sm flex flex-col gap-3 md:hidden">
+              <ul className="absolute z-10 top-16 left-0 w-full h-screen bg-slate-100 px-3 py-4 font-semibold text-sm flex flex-col gap-3 md:hidden">
                 <li>
                   <NavLink to={'/product'} onClick={() => setMobileNavigation(false)}>Product</NavLink>
                 </li>
