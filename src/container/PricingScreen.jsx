@@ -1,4 +1,4 @@
-import Supercharge from "../components/Home/Supercharge"
+import Supercharge from "../components/Product/Supercharge"
 import TryForFree from "../components/Home/TryForFree"
 import Faq from "../components/Pricing/Faq"
 import NeedHelp from "../components/Pricing/NeedHelp"

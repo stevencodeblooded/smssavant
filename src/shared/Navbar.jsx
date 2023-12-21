@@ -16,19 +16,19 @@ const Navbar = () => {
             </Link>
             <ul className="hidden md:flex items-center gap-8 font-semibold text-sm">
               <li>
-                <NavLink to={'/product'}>Product</NavLink>
+                <NavLink className={({isActive}) => isActive ? "text-black bg-amber-300 font-medium shadow-sm shadow-black px-2 py-1" : null} to={'/product'}>Product</NavLink>
               </li>
               <li>
-                <NavLink to={'/pricing'}>Pricing</NavLink>
+                <NavLink className={({isActive}) => isActive ? "text-black bg-amber-300 font-medium shadow-sm shadow-black px-2 py-1" : null} to={'/pricing'}>Pricing</NavLink>
               </li>
               <li>
-                <NavLink to={'/company'}>Company</NavLink>
+                <NavLink className={({isActive}) => isActive ? "text-black bg-amber-300 font-medium shadow-sm shadow-black px-2 py-1" : null} to={'/company'}>Company</NavLink>
               </li>
               <li>
-                <NavLink to={'/resources'}>Resources</NavLink>
+                <NavLink className={({isActive}) => isActive ? "text-black bg-amber-300 font-medium shadow-sm shadow-black px-2 py-1" : null} to={'/resources'}>Resources</NavLink>
               </li>
               <li>
-                <NavLink to={'/contact'}>Contact</NavLink>
+                <NavLink className={({isActive}) => isActive ? "text-black bg-amber-300 font-medium shadow-sm shadow-black px-2 py-1" : null} to={'/contact'}>Contact</NavLink>
               </li>
             </ul>
           </div>
@@ -46,19 +46,19 @@ const Navbar = () => {
             mobileNavigation && (
               <ul className="absolute z-10 top-16 left-0 w-full h-screen bg-slate-100 px-3 py-4 font-semibold text-sm flex flex-col gap-3 md:hidden">
                 <li>
-                  <NavLink to={'/product'} onClick={() => setMobileNavigation(false)}>Product</NavLink>
+                  <NavLink to={'/product'} className={({isActive}) => isActive ? "text-black bg-amber-300 font-medium shadow-sm shadow-black px-2 py-1" : null} onClick={() => setMobileNavigation(false)}>Product</NavLink>
                 </li>
                 <li>
-                  <NavLink to={'/pricing'} onClick={() => setMobileNavigation(false)}>Pricing</NavLink>
+                  <NavLink to={'/pricing'} className={({isActive}) => isActive ? "text-black bg-amber-300 font-medium shadow-sm shadow-black px-2 py-1" : null} onClick={() => setMobileNavigation(false)}>Pricing</NavLink>
                 </li>
                 <li>
-                  <NavLink to={'/company'} onClick={() => setMobileNavigation(false)}>Company</NavLink>
+                  <NavLink to={'/company'} className={({isActive}) => isActive ? "text-black bg-amber-300 font-medium shadow-sm shadow-black px-2 py-1" : null} onClick={() => setMobileNavigation(false)}>Company</NavLink>
                 </li>
                 <li>
-                  <NavLink to={'/resources'} onClick={() => setMobileNavigation(false)}>Resources</NavLink>
+                  <NavLink to={'/resources'} className={({isActive}) => isActive ? "text-black bg-amber-300 font-medium shadow-sm shadow-black px-2 py-1" : null} onClick={() => setMobileNavigation(false)}>Resources</NavLink>
                 </li>
                 <li>
-                  <NavLink to={'/contact'} onClick={() => setMobileNavigation(false)}>Contact</NavLink>
+                  <NavLink to={'/contact'} className={({isActive}) => isActive ? "text-black bg-amber-300 font-medium shadow-sm shadow-black px-2 py-1" : null} onClick={() => setMobileNavigation(false)}>Contact</NavLink>
                 </li>
                 <div className="flex flex-col gap-4">
                   <Link to={'/login'} onClick={() => setMobileNavigation(false)} className="bg-slate-300 px-2 py-1 rounded-md">Log In</Link>

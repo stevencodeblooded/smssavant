@@ -8,7 +8,7 @@ const WhatsNew = () => {
     <div className='bg-slate-100'>
         <section className='max-w-5xl mx-auto'>
             <div className='px-3 py-14'>
-                <h1 className='text-4xl font-bold leading-snug mb-5'>What's new at Yoora?</h1>
+                <h1 className='text-4xl font-bold leading-snug mb-5'>What's new at <span className='text-slate-500'>Yoora?</span></h1>
                 <h4 className=' font-semibold flex items-center gap-2 mb-8'>See all <FontAwesomeIcon className='text-teal-950' icon={faArrowRight} /></h4>
                 <div className='flex flex-col gap-8'>
                     <div>

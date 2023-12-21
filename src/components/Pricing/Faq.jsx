@@ -28,11 +28,7 @@ const Faq = () => {
                               sales enablement, marketing automation,
                               and help desk/customer support
                               capabilities, it s all you need to manage
-                              the entire customer lifecycle. Most of our
-                              competitors offer one or two of these
-                              functions as separate products, leaving
-                              you with the headache of integrating
-                              them and increasing the overall price 
+                              the entire customer lifecycle.
                             </div>
                           </Accordion.ItemContent>
                         </Accordion.Item>
