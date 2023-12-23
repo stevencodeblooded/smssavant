@@ -8,6 +8,7 @@ import CompanyScreen from "./container/CompanyScreen"
 import PricingScreen from "./container/PricingScreen"
 import RegisterScreen from "./container/RegisterScreen"
 import LoginScreen from "./container/LoginScreen"
+import NotFound from "./container/NotFound"
 
 const App = () => {
   const router = createBrowserRouter(
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="contact" element={<ContactScreen />} />
         <Route path="register" element={<RegisterScreen />} />
         <Route path="login" element={<LoginScreen />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
     )
   )

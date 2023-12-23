@@ -15,7 +15,7 @@ const Integrations = () => {
         <section className="max-w-5xl mx-auto">
             <div className="px-3 py-14">
                 <div className="text-center mb-10">
-                    <h1 className="text-4xl font-bold leading-snug mb-5">Over 300+ integrations</h1> 
+                    <h1  className="text-4xl font-bold leading-snug mb-6 capitalize md:text-5xl">Over 300+ integrations</h1> 
                     <p>Expand the capabilities of Yoora
                       with hundreds of apps and
                       integrations

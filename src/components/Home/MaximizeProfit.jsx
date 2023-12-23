@@ -8,8 +8,8 @@ const MaximizeProfit = () => {
         <section className="max-w-5xl mx-auto">
             <div className="px-3 py-14">
                 <div>
-                    <h1 className="text-4xl font-bold leading-snug mb-10">Maximize Profit, Minimize Effort</h1>
-                    <div className="flex flex-col gap-4">
+                    <h1 className="text-4xl font-bold leading-snug mb-10 md:text-5xl">Maximize Profit, Minimize Effort</h1>
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 ">
                         <div className="flex flex-col gap-3 text-black bg-amber-300 p-5 rounded-lg">
                             <FaFunnelDollar className="text-7xl mb-6"/>
                             <hr className=" border-black" />

@@ -7,7 +7,7 @@ const Faq = () => {
         <section className="max-w-5xl mx-auto">
             <div className="px-3 py-14">
                 <div>
-                    <h1 className="text-4xl font-bold leading-snug mb-10">Frequently asked questions</h1>
+                    <h1 className="text-4xl font-bold leading-snug capitalize md:text-5xl mb-10">Frequently asked <span className="text-slate-500">questions</span></h1>
                     <hr className="border-black my-8" />
                     <div>
                       <Accordion.Root defaultValue={['How Does Yoora CRM Compare To The Competition?']} collapsible>
