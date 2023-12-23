@@ -4,7 +4,7 @@ const CompanyCustomers = () => {
   return (
     <div className=" bg-slate-100">
         <section className="max-w-5xl mx-auto">
-            <div className="px-3 py-14">
+            <div className="px-3 pt-28 pb-14">
                 <div>
                     <h1 className="text-4xl font-bold leading-snug mb-10">We build bridges between <span className="text-slate-500">companies and customers</span></h1>
                     <p className="mb-6">

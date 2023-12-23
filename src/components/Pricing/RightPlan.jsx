@@ -5,7 +5,7 @@ const RightPlan = () => {
   return (
     <div className="bg-slate-100">
         <section className="max-w-5xl mx-auto">
-            <div className="px-3 pt-14">
+            <div className="px-3 pt-28 pb-14">
                 <div className="flex flex-col gap-8">
                     <h1 className="text-4xl font-bold leading-snug">Choose the right plan <span className="text-slate-500">for your business</span></h1>
                     <p>

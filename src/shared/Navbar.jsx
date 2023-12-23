@@ -7,7 +7,7 @@ const Navbar = () => {
   const [mobileNavigation, setMobileNavigation] = useState(false);
   
   return (
-    <div className="bg-slate-100">
+    <div className="bg-slate-100 fixed w-full shadow shadow-slate-300 z-50">
       <section className=" max-w-5xl mx-auto">
         <div className="relative flex items-center justify-between px-3 py-4">
           <div className="flex items-center gap-12">

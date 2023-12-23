@@ -5,9 +5,9 @@ const GetInTouch = () => {
   return (
     <div className="bg-slate-100">
         <section className="max-w-5xl mx-auto">
-            <div className="px-3 pt-14 pb-4">
+            <div className="px-3 pt-28 pb-14">
                 <div>
-                    <h1 className="text-4xl font-bold leading-snug mb-6">Get in touch with our lovely team</h1>
+                    <h1 className="text-4xl font-bold leading-snug mb-6">Get in touch with <span className="text-slate-500">our lovely team</span></h1>
                     <form action="" className="flex flex-col gap-2 ">
                         <input type="text" name="" id="" placeholder="Your name" className="p-3 text-base bg-white font-semibold rounded-md" />
                         <input type="email" name="" id="" placeholder="Your email" className="p-3 text-base bg-white font-semibold rounded-md" />
