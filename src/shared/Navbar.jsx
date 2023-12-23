@@ -44,7 +44,7 @@ const Navbar = () => {
 
           {
             mobileNavigation && (
-              <ul className="absolute z-10 top-16 left-0 w-full h-screen bg-slate-100 px-3 py-4 font-semibold text-sm flex flex-col gap-3 md:hidden">
+              <ul className="absolute z-10 top-16 left-0 w-full h-screen bg-slate-100 px-5 py-4 font-semibold text-sm flex flex-col gap-6 md:hidden">
                 <li>
                   <NavLink to={'/product'} className={({isActive}) => isActive ? "text-black bg-amber-300 font-medium shadow-sm shadow-black px-2 py-1" : null} onClick={() => setMobileNavigation(false)}>Product</NavLink>
                 </li>

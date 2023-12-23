@@ -8,8 +8,8 @@ const RightPlan = () => {
         <section className="max-w-5xl mx-auto">
             <div className="px-3 pt-28 pb-14">
                 <div className="flex flex-col gap-20">
-                    <div className="flex flex-col gap-8 md:flex-row">
-                        <h1 className="text-4xl font-bold leading-snug capitalize md:text-5xl md:w-2/3">Choose the right plan <span className="text-slate-500">for your business</span></h1>
+                    <div className="flex flex-col gap-8 md:flex-row md:items-end">
+                        <h1 className="text-4xl font-bold leading-snug capitalize md:leading-snug md:text-5xl md:w-2/3">Choose the right plan <span className="text-slate-500">for your business</span></h1>
                         <p className="md:w-1/3">
                             Built with love for growing
                             businesses. Check out the Yoora

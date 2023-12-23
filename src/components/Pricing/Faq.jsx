@@ -1,5 +1,6 @@
 import { Accordion } from "@ark-ui/react"
-import { ChevronDownIcon } from 'lucide-react'
+import { faPlus } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const Faq = () => {
   return (
@@ -15,7 +16,7 @@ const Faq = () => {
                           <Accordion.ItemTrigger className="text-left w-full flex gap-2 justify-between">
                             <h2 className="text-lg font-semibold">How Does Yoora CRM Compare To The Competition?</h2>
                             <Accordion.ItemIndicator>
-                              <ChevronDownIcon />
+                              <FontAwesomeIcon icon={faPlus} />
                             </Accordion.ItemIndicator>
                           </Accordion.ItemTrigger>
                           <Accordion.ItemContent>
@@ -39,7 +40,7 @@ const Faq = () => {
                           <Accordion.ItemTrigger className="text-left w-full flex gap-2 justify-between">
                             <h2 className="text-lg font-semibold">Can I Change Plans Or Cancel My Subscription At Any Time?</h2>
                             <Accordion.ItemIndicator>
-                              <ChevronDownIcon />
+                              <FontAwesomeIcon icon={faPlus} />
                             </Accordion.ItemIndicator>
                           </Accordion.ItemTrigger>
                           <Accordion.ItemContent>
@@ -53,7 +54,7 @@ const Faq = () => {
                           <Accordion.ItemTrigger className="text-left w-full flex gap-2 justify-between">
                             <h2 className="text-lg font-semibold">How Secure Is My Data With Yoora CRM?</h2>
                             <Accordion.ItemIndicator>
-                              <ChevronDownIcon />
+                              <FontAwesomeIcon icon={faPlus} />
                             </Accordion.ItemIndicator>
                           </Accordion.ItemTrigger>
                           <Accordion.ItemContent>
@@ -67,7 +68,7 @@ const Faq = () => {
                           <Accordion.ItemTrigger className="text-left w-full flex gap-2 justify-between">
                             <h2 className="text-lg font-semibold">What Is The Uptime Guarantee?</h2>
                             <Accordion.ItemIndicator>
-                              <ChevronDownIcon />
+                              <FontAwesomeIcon icon={faPlus} />
                             </Accordion.ItemIndicator>
                           </Accordion.ItemTrigger>
                           <Accordion.ItemContent>

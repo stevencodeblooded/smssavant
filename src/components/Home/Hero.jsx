@@ -14,7 +14,7 @@ const Hero = () => {
                         Save time, grow your business, and make each conversation count.
                     </p>
                     <div>
-                        <Link className="bg-sky-600 block px-3 p-2 rounded text-white font-semibold text-sm mb-6 sm:flex sm:justify-center">Try for Free</Link>
+                        <Link className="text-black bg-amber-300 block px-3 p-2 rounded font-semibold text-base shadow-sm shadow-black mb-6 sm:flex sm:justify-center">Try for Free</Link>
                         <p className="text-base">
                             Join the 50+ cleaning companies that are using SMS Savant!
                         </p>
