@@ -28,7 +28,7 @@ const RightPlan = () => {
                             <button className="text-black bg-amber-300 font-medium shadow-sm shadow-black py-2">Try For Free</button>
                             <p className="text-gray-500 font-medium">Free 14-day trial. No credit card required</p>
                             <hr className=" border-black my-5" />
-                            <ul className="flex flex-col gap-3">
+                            <ul className="flex flex-col gap-3 text-sm font-semibold text-gray-500"> 
                                 <li className="flex items-center gap-3"><FontAwesomeIcon icon={faCheck} className="text-amber-500" /> 2 team </li>
                                 <li className="flex items-center gap-3"><FontAwesomeIcon icon={faCheck} className="text-amber-500" /> 1,000 Contacts &</li>
                                 <li className="flex items-center gap-3"><FontAwesomeIcon icon={faCheck} className="text-amber-500" /> 5 Campaign</li>
@@ -51,7 +51,7 @@ const RightPlan = () => {
                             <button className="text-black bg-amber-300 font-medium shadow-sm shadow-black py-2">Try For Free</button>
                             <p className="text-gray-500 font-medium">Free 14-day trial. No credit card required</p>
                             <hr className=" border-black my-5" />
-                            <ul className="flex flex-col gap-3">
+                            <ul className="flex flex-col gap-3  text-sm font-semibold text-gray-500">
                                 <li className="flex items-center gap-3"><FontAwesomeIcon icon={faCheck} className="text-amber-500" /> 10 team members </li>
                                 <li className="flex items-center gap-3"><FontAwesomeIcon icon={faCheck} className="text-amber-500" /> 2,500 Contacts & Companies</li>
                                 <li className="flex items-center gap-3"><FontAwesomeIcon icon={faCheck} className="text-amber-500" /> 5 Campaign Workflows</li>
@@ -75,7 +75,7 @@ const RightPlan = () => {
                             <button className="text-black bg-amber-300 font-medium shadow-sm shadow-black py-2">Try For Free</button>
                             <p className="text-gray-500 font-medium">Free 14-day trial. No credit card required</p>
                             <hr className=" border-black my-5" />
-                            <ul className="flex flex-col gap-3">
+                            <ul className="flex flex-col gap-3  text-sm font-semibold text-gray-500">
                                 <li className="flex items-center gap-3"><FontAwesomeIcon icon={faCheck} className="text-amber-500" /> Unlimited team members </li>
                                 <li className="flex items-center gap-3"><FontAwesomeIcon icon={faCheck} className="text-amber-500" /> 5,000 Contacts & Companies</li>
                                 <li className="flex items-center gap-3"><FontAwesomeIcon icon={faCheck} className="text-amber-500" /> 25 Campaign Workflows</li>
